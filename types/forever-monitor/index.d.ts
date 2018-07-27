@@ -21,6 +21,7 @@ export interface Options {
     minUptime?: number;
     spinSleepTime?: number;
     command?: string;
+    killSignal?: string;  
     args?: string[];
     sourceDir?: string;
     watch?: boolean;
